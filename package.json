@@ -4,6 +4,7 @@
   "description": "DBT-inspired dark and light color themes for VS Code and Cursor",
   "version": "0.0.1",
   "publisher": "jayzelenkov",
+  "icon": "icon.png",
   "license": "MIT",
   "repository": {
     "type": "git",
