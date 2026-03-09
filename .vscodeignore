@@ -1,0 +1,7 @@
+.jj/
+.git/
+.gitignore
+.vscodeignore
+*.vsix
+.DS_Store
+Thumbs.db

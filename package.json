@@ -1,0 +1,49 @@
+{
+  "name": "jayzelenkov-themes",
+  "displayName": "JZ Themes",
+  "description": "DBT-inspired dark and light color themes for VS Code and Cursor",
+  "version": "0.0.1",
+  "publisher": "jayzelenkov",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jayzelenkov/jz-vscode-themes"
+  },
+  "bugs": {
+    "url": "https://github.com/jayzelenkov/jz-vscode-themes/issues"
+  },
+  "homepage": "https://github.com/jayzelenkov/jz-vscode-themes#readme",
+  "engines": {
+    "vscode": "^1.60.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "keywords": [
+    "theme",
+    "color-theme",
+    "dark",
+    "light",
+    "dbt",
+    "sql",
+    "jinja"
+  ],
+  "galleryBanner": {
+    "color": "#161514",
+    "theme": "dark"
+  },
+  "contributes": {
+    "themes": [
+      {
+        "label": "DBT Dark Theme",
+        "uiTheme": "vs-dark",
+        "path": "./themes/dbt-dark-theme.json"
+      },
+      {
+        "label": "DBT Light Theme",
+        "uiTheme": "vs",
+        "path": "./themes/dbt-light-theme.json"
+      }
+    ]
+  }
+}
