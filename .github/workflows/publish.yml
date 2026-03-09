@@ -29,5 +29,8 @@ jobs:
       - name: Publish to VS Code Marketplace
         run: vsce publish -p ${{ secrets.VSCE_PAT }}
 
+      - name: Create Open VSX namespace (if needed)
+        run: npx ovsx create-namespace jayzelenkov -p ${{ secrets.OVSX_PAT }} || true
+
       - name: Publish to Open VSX (Cursor)
         run: npx ovsx publish *.vsix -p ${{ secrets.OVSX_PAT }}
